@@ -81,13 +81,16 @@ namespace Application
 			//			spriteBatch.Draw(background, new Rectangle(0, 0, ScreenWidth, ScreenHeight), Color.White);
 
 			spriteBatch.End();
+			spriteBatch.Begin();
+
+
+
+			spriteBatch.End();
 
 			base.Draw(gameTime);
 		}
 
 		private Texture2D background;
-
-		int testing;
 
 		private GraphicsDeviceManager graphics;
 		private SpriteBatch spriteBatch;

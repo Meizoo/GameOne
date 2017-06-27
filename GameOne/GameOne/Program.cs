@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GameOne
+namespace Application
 {
 #if WINDOWS || LINUX
     /// <summary>
@@ -14,7 +14,7 @@ namespace GameOne
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
+            using (var game = new Controller())
                 game.Run();
         }
     }
