@@ -71,20 +71,14 @@ namespace Application
 		protected override void Draw(GameTime gameTime)
 		{
 			GraphicsDevice.Clear(Color.CornflowerBlue);
-
 			spriteBatch.Begin(SpriteSortMode.Deferred, null, SamplerState.LinearWrap, null, null);
-
 			spriteBatch.Draw(background,
 				new Vector2(0, 0),
 				new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height),
 				Color.White, 0, Vector2.Zero, 1f, SpriteEffects.None, 0);
 			//			spriteBatch.Draw(background, new Rectangle(0, 0, ScreenWidth, ScreenHeight), Color.White);
-
 			spriteBatch.End();
 			spriteBatch.Begin();
-
-
-
 			spriteBatch.End();
 
 			base.Draw(gameTime);
