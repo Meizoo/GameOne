@@ -45,10 +45,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    <Compile Include="EntityStructures.cs" />
+    <Compile Include="Flags.cs" />
 >>>>>>> a50464414d69fcd1d7f73719d0cc70584f182cce
 =======
+    <Compile Include="EntityStructures.cs" />
+    <Compile Include="Flags.cs" />
 >>>>>>> a50464414d69fcd1d7f73719d0cc70584f182cce
     <Compile Include="Game1.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Monster.cs" />
+    <Compile Include="NPC.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
