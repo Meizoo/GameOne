@@ -43,6 +43,11 @@
   <ItemGroup>
     <Compile Include="Entity.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a50464414d69fcd1d7f73719d0cc70584f182cce
+=======
+>>>>>>> a50464414d69fcd1d7f73719d0cc70584f182cce
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

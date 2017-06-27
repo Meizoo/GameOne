@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Microsoft.Xna.Framework;
+<<<<<<< HEAD
+<<<<<<< HEAD
 // Struct, Entity, mockups of Player, Monster, Npc
 namespace GameOne
 {
@@ -116,4 +118,8 @@ namespace GameOne
     {
 
     }
+<<<<<<< HEAD
+>>>>>>> a50464414d69fcd1d7f73719d0cc70584f182cce
+=======
+>>>>>>> a50464414d69fcd1d7f73719d0cc70584f182cce
 }
