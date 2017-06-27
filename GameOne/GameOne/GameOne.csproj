@@ -44,6 +44,11 @@
     <Compile Include="Entity.cs" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <Compile Include="EntityStructures.cs" />
+    <Compile Include="Flags.cs" />
+>>>>>>> a50464414d69fcd1d7f73719d0cc70584f182cce
 =======
     <Compile Include="EntityStructures.cs" />
     <Compile Include="Flags.cs" />
